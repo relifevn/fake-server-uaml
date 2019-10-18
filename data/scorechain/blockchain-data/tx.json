@@ -1,0 +1,126 @@
+{
+    "hash": "b996fd444178d64e0d3b56718470bfb89bdb39753f7f0f56bd32e423b9bece6b",
+    "date": "March 7 2018, 1:48:33",
+    "timestamp": 1520387313,
+    "amounts": {
+      "inputs": {
+        "btc": 8.4888,
+        "usd": 91508,
+        "eur": 73701,
+        "aud": 116902,
+        "brl": 296936,
+        "cad": 118105,
+        "chf": 86329,
+        "cny": 578552,
+        "gbp": 65814,
+        "hkd": 716903,
+        "ils": 315621,
+        "jpy": 9716332,
+        "krw": 97556946,
+        "mxn": 1712134,
+        "nok": 714396,
+        "nzd": 125551,
+        "pln": 310497,
+        "rub": 5198160,
+        "sek": 752864,
+        "sgd": 120242,
+        "try": 348354
+      },
+      "outputs": {
+        "btc": 8.487,
+        "usd": 91489,
+        "eur": 73685,
+        "aud": 116877,
+        "brl": 296873,
+        "cad": 118080,
+        "chf": 86311,
+        "cny": 578429,
+        "gbp": 65800,
+        "hkd": 716751,
+        "ils": 315554,
+        "jpy": 9714272,
+        "krw": 97536259,
+        "mxn": 1711771,
+        "nok": 714245,
+        "nzd": 125524,
+        "pln": 310431,
+        "rub": 5197058,
+        "sek": 752705,
+        "sgd": 120217,
+        "try": 348280
+      },
+      "fees": {
+        "btc": 0.0018,
+        "usd": 19,
+        "eur": 16,
+        "aud": 25,
+        "brl": 63,
+        "cad": 25,
+        "chf": 18,
+        "cny": 123,
+        "gbp": 14,
+        "hkd": 152,
+        "ils": 67,
+        "jpy": 2060,
+        "krw": 20686,
+        "mxn": 363,
+        "nok": 151,
+        "nzd": 27,
+        "pln": 66,
+        "rub": 1102,
+        "sek": 160,
+        "sgd": 25,
+        "try": 74
+      },
+      "rates": {
+        "aud": 13771.3,
+        "brl": 34979.69,
+        "cad": 13913.09,
+        "chf": 10169.74,
+        "cny": 68154.75,
+        "eur": 8682.12,
+        "gbp": 7753.01,
+        "hkd": 84452.85,
+        "ils": 37180.92,
+        "jpy": 1144606.07,
+        "krw": 11492430.7,
+        "mxn": 201693.27,
+        "nok": 84157.48,
+        "nzd": 14790.14,
+        "pln": 36577.25,
+        "rub": 612355.15,
+        "sek": 88689.15,
+        "sgd": 14164.81,
+        "try": 41036.9,
+        "usd": 10779.9
+      }
+    },
+    "block": {
+      "hash": "000000000000000000428c12a33ea23234b28f22152173c43a2f0fa03f415156",
+      "height": 512345,
+      "timestamp": 1520387313
+    },
+    "inputs": [
+      {
+        "address": "bc1qwqdg6squsna38e46795at95yu9atm8azzmyvckulcc7kytlcckxswvvzej",
+        "amount": 8.4888,
+        "name": "BitFlyer.jp",
+        "spentTx": "b6be732d2b2e689293d35002e03e29107e035e5f19dc47bfa0a12a4167101cf9"
+      }
+    ],
+    "outputs": [
+      {
+        "address": "1JZMBfePpwWFcyzJaQEDKdxTuuky1vWGoT",
+        "amount": 6.793,
+        "name": "Bithumb.com",
+        "spendingTx": "5508237669c5df1c03581917e27d0aa9e7b3315c7d481b745b77588e2f77d93c"
+      },
+      {
+        "address": "bc1qwqdg6squsna38e46795at95yu9atm8azzmyvckulcc7kytlcckxswvvzej",
+        "amount": 1.694,
+        "name": "BitFlyer.jp",
+        "spendingTx": "0fb3fb713812ac5079f3f845fe0ac16f089687d794608902853c7df9caa53a4e"
+      }
+    ],
+    "isMixing": false
+  }

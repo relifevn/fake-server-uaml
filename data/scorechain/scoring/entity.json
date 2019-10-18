@@ -1,0 +1,17 @@
+{
+  "scx": 42,
+  "details": {
+    "allTxs": true,
+    "sinceDate": 0,
+    "relationships": [
+      {
+        "type": "exchange",
+        "label": "string",
+        "address": "string",
+        "value": 0.42,
+        "percent": 13,
+        "scx": 37
+      }
+    ]
+  }
+}

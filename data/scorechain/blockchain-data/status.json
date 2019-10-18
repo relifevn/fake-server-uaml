@@ -1,0 +1,23 @@
+{
+  "timestamp": 1569999913,
+  "state": "synced",
+  "unsyncedBlocks": 0,
+  "lastBlock": {
+    "blh": "0000000000000000000de49a0f81cdd98143a780749431a444c016cb92f5b0bc",
+    "height": 597507,
+    "nbtx": 3093,
+    "date": "2019-10-02T06:48:12.000Z"
+  },
+  "scoring_api": {
+    "state": "synced",
+    "unsyncedBlocks": 0
+  },
+  "reports_api": {
+    "state": "synced",
+    "unsyncedBlocks": 0
+  },
+  "cache_api": {
+    "state": "synced",
+    "unsyncedBlocks": 0
+  }
+}

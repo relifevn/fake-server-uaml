@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "reports": [
+    {
+      "id": 2514,
+      "create_date": "2019-09-26T20:21:04.000Z",
+      "type": "ADDRESS_EXPORT_BALANCES",
+      "wallet": "1BQFH8haLtttEyF7GKiwgS1aV1vM1FvHsE",
+      "params": {
+        "startDate": "2010-02-02T00:00:00.000Z",
+        "endDate": "2019-09-27T00:00:00.000Z",
+        "name": "1BQFH8haLtttEyF7GKiwgS1aV1vM1FvHsE",
+        "period": "weekly"
+      },
+      "files": {
+        "xls": "bitcoin.scorechain.com/reports/user1919/BALANCES_1BQFH8haLtttEyF7GKiwgS1aV1vM1FvHsE_20100202-0000_20190927-0000_weekly_2514.xlsx",
+        "csv": "bitcoin.scorechain.com/reports/user1919/BALANCES_1BQFH8haLtttEyF7GKiwgS1aV1vM1FvHsE_20100202-0000_20190927-0000_weekly_2514.csv",
+        "zip": "bitcoin.scorechain.com/reports/user1919/BALANCES_1BQFH8haLtttEyF7GKiwgS1aV1vM1FvHsE_20100202-0000_20190927-0000_weekly_2514.csv.gz"
+      },
+      "status": "COMPLETED"
+    }
+  ]
+}

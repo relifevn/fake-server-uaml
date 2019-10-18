@@ -1,0 +1,18 @@
+[
+  {
+    "id": 4649,
+    "type": "ACTIVITY",
+    "isEntityOf": false,
+    "address": "1BQFH8haLtttEyF7GKiwgS1aV1vM1FvHsE",
+    "entityName": null,
+    "settings": {
+      "type": "all",
+      "currency": "BTC",
+      "thres_amount": 0
+    },
+    "enabled": true,
+    "mailEnabled": true,
+    "createDate": 1569529215,
+    "updateDate": 1570003237
+  }
+]

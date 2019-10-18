@@ -1,0 +1,17 @@
+{
+  "scx": 90,
+  "details": {
+    "allTxs": true,
+    "sinceDate": null,
+    "relationships": [
+      {
+        "type": "exchange",
+        "label": "BitFlyer.jp",
+        "address": "bc1qwqdg6squsna38e46795at95yu9atm8azzmyvckulcc7kytlcckxswvvzej",
+        "value": 8.487,
+        "percent": 100,
+        "scx": 90
+      }
+    ]
+  }
+}
