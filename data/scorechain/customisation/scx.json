@@ -1,0 +1,19 @@
+{
+  "error": null,
+  "types": [
+    {
+      "name": "MIXING",
+      "description": "mixing transaction (coinjoin)",
+      "defaultScx": 15,
+      "customScx": null
+    }
+  ],
+  "entities": [
+    {
+      "name": "100x Your Coins in 24 Hours 1",
+      "type": "darkweb",
+      "defaultScx": 8,
+      "customScx": null
+    }
+  ]
+}
