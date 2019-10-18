@@ -1,0 +1,35 @@
+{
+    "success": true,
+    "result": [
+        {
+            "name": "Amber Token",
+            "symbol": "AMB",
+            "address": "0x4dc3643dbc642b72c158e7f3d2ff232df61cb6ce",
+            "balance": 10,
+            "counterValues": {
+                "ETH": 20,
+                "AUD": 20,
+                "BRL": 20,
+                "CAD": 20,
+                "CHF": 20,
+                "CNY": 20,
+                "EUR": 20,
+                "GBP": 20,
+                "HKD": 20,
+                "ILS": 20,
+                "JPY": 20,
+                "KRW": 20,
+                "MXN": 20,
+                "NOK": 20,
+                "NZD": 20,
+                "PLN": 20,
+                "RUB": 20,
+                "SEK": 20,
+                "SGD": 20,
+                "TRY": 20,
+                "USD": 20,
+                "BTC": 20
+            }
+        }
+    ]
+}

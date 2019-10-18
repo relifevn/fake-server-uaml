@@ -1,0 +1,11 @@
+{
+    "timestamp": 1522240819,
+    "state": "synced",
+    "unsyncedBlocks": 0,
+    "lastBlock": {
+        "hash": "0x4d35756500d1daeb5640eae583f38e0cf7c9a1ab271357ff1aff2a7bf454a3f7",
+        "height": 8123456,
+        "nbtx": 195,
+        "date": "2019-07-10T12:17:25.000Z"
+    }
+}

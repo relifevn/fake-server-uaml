@@ -1,0 +1,50 @@
+{
+    "success": true,
+    "result": [
+        {
+            "id": 233,
+            "create_date": "2019-08-23T08:02:04.000Z",
+            "type": "TX_KYT",
+            "params": {
+                "hash": "0x5ae49ef7efbea234130c5873bbc39cacb36718d1bbb0b30563782315ceca0a5b",
+                "address": "0xb912450efad147472b9a153664c03d4a47455aba",
+                "direction": "incoming",
+                "detailed": true,
+                "startDate": 1275948000,
+                "endDate": 1565823600,
+                "depth": 8,
+                "indentity": {
+                    "user": {
+                        "label": "Binance.com",
+                        "score": 50,
+                        "type": {
+                            "id": 12,
+                            "label": "Token",
+                            "score": 80,
+                            "custom": true,
+                            "parentId": 17
+                        }
+                    },
+                    "system": {
+                        "label": "Binance.com",
+                        "score": 50,
+                        "type": {
+                            "id": 12,
+                            "label": "Token",
+                            "score": 80,
+                            "custom": true,
+                            "parentId": 17
+                        }
+                    }
+                }
+            },
+            "files": {
+                "csv": "DETAILED_OUTGOING_ADDRESS_SCORING_0xb3764761e297d6f121e79c32a65829cd1ddb4d32_1565787597.csv",
+                "zip": "DETAILED_OUTGOING_ADDRESS_SCORING_0xb3764761e297d6f121e79c32a65829cd1ddb4d32_1565787597.csv.gz",
+                "xls": "DETAILED_OUTGOING_ADDRESS_SCORING_0xb3764761e297d6f121e79c32a65829cd1ddb4d32_1565787597.xlsx",
+                "pdf": "TX_KYT_0x5ae49ef7efbea234130c5873bbc39cacb36718d1bbb0b30563782315ceca0a5b_1566551437.pdf"
+            },
+            "status": "IN_PROGRESS"
+        }
+    ]
+}

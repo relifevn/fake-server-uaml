@@ -1,0 +1,61 @@
+{
+    "success": true,
+    "result": {
+        "hexa": "0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be",
+        "balance": {
+            "ETH": 20,
+            "AUD": 20,
+            "BRL": 20,
+            "CAD": 20,
+            "CHF": 20,
+            "CNY": 20,
+            "EUR": 20,
+            "GBP": 20,
+            "HKD": 20,
+            "ILS": 20,
+            "JPY": 20,
+            "KRW": 20,
+            "MXN": 20,
+            "NOK": 20,
+            "NZD": 20,
+            "PLN": 20,
+            "RUB": 20,
+            "SEK": 20,
+            "SGD": 20,
+            "TRY": 20,
+            "USD": 20,
+            "BTC": 20
+        },
+        "isContract": true,
+        "identity": {
+            "user": {
+                "label": "Binance.com",
+                "score": 50,
+                "type": {
+                    "id": 12,
+                    "label": "Token",
+                    "score": 80,
+                    "custom": true,
+                    "parentId": 17
+                }
+            },
+            "system": {
+                "label": "Binance.com",
+                "score": 50,
+                "type": {
+                    "id": 12,
+                    "label": "Token",
+                    "score": 80,
+                    "custom": true,
+                    "parentId": 17
+                }
+            }
+        },
+        "groups": [
+            {
+                "id": 34,
+                "label": "string"
+            }
+        ]
+    }
+}

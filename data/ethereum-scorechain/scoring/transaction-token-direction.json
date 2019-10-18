@@ -1,0 +1,16 @@
+{
+    "success": true,
+    "result": {
+        "scx": 75,
+        "details": [
+            {
+                "address": "0xffe90463df116c008431da4f93f4a60a12594f50",
+                "amount": 75505.266824,
+                "percentage": 35.3,
+                "tag": "Okex",
+                "type": "Exchange",
+                "scx": 90
+            }
+        ]
+    }
+}

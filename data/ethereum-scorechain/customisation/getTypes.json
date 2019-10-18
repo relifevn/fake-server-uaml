@@ -1,0 +1,23 @@
+{
+    "success": true,
+    "result": {
+        "user": [
+            {
+                "id": 12,
+                "label": "Token",
+                "score": 80,
+                "custom": true,
+                "parentId": 17
+            }
+        ],
+        "scorechain:": [
+            {
+                "id": 12,
+                "label": "Token",
+                "score": 80,
+                "custom": true,
+                "parentId": 17
+            }
+        ]
+    }
+}

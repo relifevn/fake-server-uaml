@@ -1,5 +1,7 @@
 // const { USER_TYPES, REGULAR } = require('./config/constants');
 
+// This file is not used
+
 module.exports = {
   openapi: '3.0.1',
   info: {
