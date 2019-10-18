@@ -1,7 +1,7 @@
-const scoring = require('./scoring.controller'),
+const bitcoinScorechain = require('./bitcoin-scorechain.controller'),
     apiKeyCheckAuth = require('./api-key.controller');
 
 module.exports = {
-    scoring,
+    bitcoinScorechain,
     apiKeyCheckAuth
 }

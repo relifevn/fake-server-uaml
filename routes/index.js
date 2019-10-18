@@ -1,5 +1,5 @@
-const scoring = require('./scoring.router');
+const bitcoinScorechain = require('./bitcoin-scorechain.router');
 
 module.exports = {
-  scoring,
+  bitcoinScorechain,
 };
