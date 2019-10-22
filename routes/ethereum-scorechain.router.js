@@ -1,29 +1,32 @@
 const router = require('express').Router()
   , controllers = require('../controllers');
 
-/* TODO */
-// const bitcoinScorechain = controllers.bitcoinScorechain;
-// const bitcoinScorechainAuthCheck = controllers.apiKeyCheckAuth.bitcoinScorechainAuthCheck;
+const ethereumScorechain = controllers.ethereumScorechain;
+const ethereumScorechainAuthCheck = controllers.apiKeyCheckAuth.ethereumScorechainAuthCheck;
 
-// /* Blockchain data */
-// router.get('/status', bitcoinScorechainAuthCheck, bitcoinScorechain.blockchainStatus);
-// router.get('/tx/:hash', bitcoinScorechainAuthCheck, bitcoinScorechain.blockchainTx);
-// router.get('/address/:address', bitcoinScorechainAuthCheck, bitcoinScorechain.blockchainAddress);
-// router.get('/entity/:address', bitcoinScorechainAuthCheck, bitcoinScorechain.blockchainEntity);
+/* Blockchain data */
+router.get('/status', ethereumScorechainAuthCheck, ethereumScorechain.blockchainStatus);
+router.get('/tx/:hash', ethereumScorechainAuthCheck, ethereumScorechain.blockchainTx);
+router.get('/address/:address', ethereumScorechainAuthCheck, ethereumScorechain.blockchainAddress);
+router.get('/address/:address/erc20/balance', ethereumScorechainAuthCheck, ethereumScorechain.blockchainAddressBalance);
+router.get('/address/:address/txs', ethereumScorechainAuthCheck, ethereumScorechain.blockchainAddressTxs);
+router.get('/address/:address/erc20/txs', ethereumScorechainAuthCheck, ethereumScorechain.blockchainAddressErc20Txs);
+router.get('/address/:address/Ethtxs', ethereumScorechainAuthCheck, ethereumScorechain.blockchainAddressEthTxs);
 
-// /* Scoring */
-// router.get('/scoring/transaction/:input/:hash', bitcoinScorechainAuthCheck, bitcoinScorechain.transaction);
-// router.get('/scoring/address/:type/:address', bitcoinScorechainAuthCheck, bitcoinScorechain.address);
-// router.get('/scoring/entity/:type/:address', bitcoinScorechainAuthCheck, bitcoinScorechain.entity);
-// router.post('/scoring/utxos/:type', bitcoinScorechainAuthCheck, bitcoinScorechain.utxos);
+/* Scoring */
+router.get('/scoring/address/:address/:direction', ethereumScorechainAuthCheck, ethereumScorechain.scoringAddress);
+router.get('/scoring/address/:address/token/:tokenAddress/:direction', ethereumScorechainAuthCheck, ethereumScorechain.scoringAddressToken);
+router.get('/scoring/transaction/:hash/:direction', ethereumScorechainAuthCheck, ethereumScorechain.scoringTransactionDirection);
+router.get('/scoring/transaction/:hash/token/:tokenAddress/:direction', ethereumScorechainAuthCheck, ethereumScorechain.scoringTransactionTokenDirection);
 
-// /* Customisation */
-// router.get('/scx', bitcoinScorechainAuthCheck, bitcoinScorechain.customisationScx);
+/* Customisation */
+router.get('/address/:address', ethereumScorechainAuthCheck, ethereumScorechain.getAddress);
+router.get('/type', ethereumScorechainAuthCheck, ethereumScorechain.getTypes);
+router.get('/group', ethereumScorechainAuthCheck, ethereumScorechain.getUserGroup);
+router.get('/group/:groupId', ethereumScorechainAuthCheck, ethereumScorechain.getGroup);
 
-// /* Reports */
-// router.get('/report', bitcoinScorechainAuthCheck, bitcoinScorechain.getReport);
 
-// /* Alerts */
-// router.get('/alerts', bitcoinScorechainAuthCheck, bitcoinScorechain.getAlerts);
+/* Reports */
+router.get('/report', ethereumScorechainAuthCheck, ethereumScorechain.getReport);
 
 module.exports = router;

@@ -22,6 +22,7 @@ app.use((req, res, next) => {
 
 // Routes
 app.use('/bitcoinScorechain', routes.bitcoinScorechain);
+app.use('/ethereumScorechain', routes.ethereumScorechain);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use((err, req, res, next) => {
   res.status(err.status || 500).json({ message: err.message || 'Something broke!' });

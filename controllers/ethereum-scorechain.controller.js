@@ -55,35 +55,42 @@ exports.blockchainAddressEthTxs = (req, res) => {
   res.json(scoreChainData.blockchain.addressEthTxs);
 }
 
-/* TODO */
 /* SCORING */
-// exports.transaction = (req, res) => {
-//   res.json(scoreChainData.scoring.transaction);
-// }
+exports.scoringAddress = (req, res) => {
+  res.json(scoreChainData.scoring.address);
+}
 
-// exports.address = (req, res) => {
-//   res.json(scoreChainData.scoring.address);
-// }
+exports.scoringAddressToken = (req, res) => {
+  res.json(scoreChainData.scoring.addressToken);
+}
 
-// exports.entity = (req, res) => {
-//   res.json(scoreChainData.scoring.entity);
-// }
+exports.scoringTransactionDirection = (req, res) => {
+  res.json(scoreChainData.scoring.transactionDirection);
+}
 
-// exports.utxos = (req, res) => {
-//   res.json(scoreChainData.scoring.utxos);
-// }
+exports.scoringTransactionTokenDirection = (req, res) => {
+  res.json(scoreChainData.scoring.transactionTokenDirection);
+}
 
-// /* CUSTOMISATION */
-// exports.customisationScx = (req, res) => {
-//   res.json(scoreChainData.customisation.scx);
-// }
 
-// /* REPORTS */
-// exports.getReport = (req, res) => {
-//   res.json(scoreChainData.reports.getReport);
-// }
+/* CUSTOMISATION */
+exports.getAddress = (req, res) => {
+  res.json(scoreChainData.customisation.getAddress);
+}
 
-// /* ALERTS */
-// exports.getAlerts = (req, res) => {
-//   res.json(scoreChainData.alerts.getAlerts);
-// }
+exports.getTypes = (req, res) => {
+  res.json(scoreChainData.customisation.getTypes);
+}
+
+exports.getUserGroup = (req, res) => {
+  res.json(scoreChainData.customisation.getUserGroup);
+}
+
+exports.getGroup = (req, res) => {
+  res.json(scoreChainData.customisation.getGroup);
+}
+
+/* REPORTS */
+exports.getReport = (req, res) => {
+  res.json(scoreChainData.reports.getReport);
+}

@@ -1,5 +1,4 @@
-const bitcoinScorechain = require('./bitcoin-scorechain.router');
-
 module.exports = {
-  bitcoinScorechain,
+  bitcoinScorechain: require('./bitcoin-scorechain.router'),
+  ethereumScorechain: require('./ethereum-scorechain.router'),
 };

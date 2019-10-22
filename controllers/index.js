@@ -1,7 +1,5 @@
-const bitcoinScorechain = require('./bitcoin-scorechain.controller'),
-    apiKeyCheckAuth = require('./api-key.controller');
-
 module.exports = {
-    bitcoinScorechain,
-    apiKeyCheckAuth
+    bitcoinScorechain: require('./bitcoin-scorechain.controller'),
+    ethereumScorechain: require('./ethereum-scorechain.controller'),
+    apiKeyCheckAuth: require('./api-key.controller'),
 }
